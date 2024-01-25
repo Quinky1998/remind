@@ -1,0 +1,9 @@
+remind_me <- function() {
+  important_bdays <- list(title = "My Family's Birthdays!",
+                          bday_1 = "Older Sister: 18th of September", 
+                          bday_2 = "Younger Sister: 13th of Septmeber",
+                          bday_3 = "Father: 13th of May",
+                          bday_4 = "Mother: 20th of April")
+
+  return(important_bdays)
+} 
